@@ -108,6 +108,25 @@ footer {
     border-top: 2px rgb(36, 36, 36) solid;
 }
 
+table {
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
+
+th, td {
+    padding: 5px;
+}
+table, th, td {
+    border: 3px solid black;
+    border-collapse: collapse;
+}
+
+a {
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
+
 @media screen and (max-width: 700px) {
     body {
         flex-direction: column;
